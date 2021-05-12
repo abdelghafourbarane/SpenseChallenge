@@ -1,0 +1,11 @@
+.brand-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 128px;
+
+  img {
+    height: 24px;
+    width: auto;
+  }
+}

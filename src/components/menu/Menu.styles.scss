@@ -1,0 +1,33 @@
+.menu-container {
+  padding-top: 64px;
+  background-color: #e8e8e8;
+  .menu-bar {
+    //   .column {
+    //     text-align: center;
+    //   }
+
+    font-weight: 500;
+
+    .logo {
+      left: 128px;
+      font-weight: 800;
+    }
+
+    .nav {
+      text-align: center;
+
+      .nav-item {
+        padding: 0px 16px;
+      }
+    }
+
+    .user {
+      right: 128px;
+      text-align: right;
+
+      span:last-child {
+        padding-left: 32px;
+      }
+    }
+  }
+}

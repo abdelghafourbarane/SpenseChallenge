@@ -1,0 +1,37 @@
+.security-ads-container {
+  margin: 0 128px;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  .security-text {
+    width: 50%;
+    padding: 88px;
+    margin: auto;
+
+    h1 {
+      font-weight: 900;
+      font-size: 40px;
+    }
+
+    a {
+      color: #393e46;
+      text-decoration: underline;
+    }
+
+    p {
+      line-height: 24px;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+
+  .security-image {
+    width: 50%;
+    padding: 64px 88px 0 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

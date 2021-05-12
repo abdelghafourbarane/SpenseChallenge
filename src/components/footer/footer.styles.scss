@@ -1,0 +1,31 @@
+.footer-container {
+  background-color: #0b0a0a;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 44px 128px;
+
+  span {
+    color: #cdd0cb;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 56px;
+
+    span {
+      margin-top: 8px;
+    }
+  }
+
+  :first-child {
+    margin-left: 0;
+    margin-right: 32px;
+
+    span {
+      line-height: 24px;
+    }
+  }
+}

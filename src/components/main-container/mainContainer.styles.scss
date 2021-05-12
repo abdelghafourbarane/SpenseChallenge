@@ -1,0 +1,41 @@
+.main-container {
+  padding: 64px 128px;
+  display: flex;
+  flex-direction: row;
+  background-color: #e8e8e8;
+
+  .main-container-text {
+    width: 60%;
+    padding-top: 64px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 56px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .main-container-inputs {
+      margin-top: 24px;
+
+      :first-child {
+        margin-right: 8px;
+        text-align: center;
+      }
+    }
+  }
+
+  .main-container-image {
+    width: 40%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

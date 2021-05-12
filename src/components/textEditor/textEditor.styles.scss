@@ -1,0 +1,35 @@
+.editor-container {
+  margin: 56px 128px;
+  display: flex;
+  flex-direction: row;
+
+  .text-editor-image {
+    width: 50%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .text-editor-text {
+    width: 50%;
+    padding: 88px 0 88px 88px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 36px;
+    }
+
+    a {
+      color: #393e46;
+      text-decoration: underline;
+    }
+
+    p {
+      line-height: 24px;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
